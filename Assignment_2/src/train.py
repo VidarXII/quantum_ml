@@ -237,8 +237,8 @@ if __name__ == "__main__":
     model = QubitTransformer(embed_dim=64)
     model.to(DEVICE)
     
-    if os.path.exists("best_model_opt.pt"):
-        model.load_state_dict(torch.load("best_model_opt.pt"))
+    if os.path.exists("Assignment_2/outputs/best_model_opt.pt"):
+        model.load_state_dict(torch.load("Assignment_2/outputs/best_model_opt.pt"))
         print("Loaded best model weights.")
     else:
         print("Warning: No trained weights found. Running with random weights.")
