@@ -212,8 +212,8 @@ if __name__ == "__main__":
     # For this snippet, let's assume we are loading the saved model
     
     # 1. Load Data (Reusable from previous step)
-    if os.path.exists("train_dataset_opt.csv"):
-        df = pd.read_csv("train_dataset_opt.csv")
+    if os.path.exists("data/train_dataset_opt.csv"):
+        df = pd.read_csv("data/train_dataset_opt.csv")
     else:
         # Generate small set if file missing for demo
         from previous_script import get_random_state_data_vectorized # (Pseudo-import)
