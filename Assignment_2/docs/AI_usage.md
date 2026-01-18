@@ -1,8 +1,8 @@
-#AI usage 
+#h1 AI usage 
 
 This is a detailed guide of my use of generative AI in the course of this assignment.
 
-##To Gemini
+##h2 To Gemini
 Ok so now, make a file expanding on my model architecture and the mathematical logic. 
 It should be a .md file, suitable to edit from hackmd, with a focus on intuitiveness of logic.
 
@@ -15,7 +15,7 @@ I'll be pushing the code onto github as different python files, what all referen
 
 I also asked Google Colab's inline agent to explain errors for debugging, unfortunately after disconnecting I lost the chat logs with it so I can't reference it here.
 
-##Verification
+##h2 Verification
 
 Since my work using Gemini was mostly making markdown files, I copied it onto hackmd and did further editing myself to get the final desired result. Otherwise while debugging I would check the usefulness of Colab's inline suggestions by the output and runtime
 
