@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+torch>=1.10.0
+pennylane
+tqdm
+scipy
