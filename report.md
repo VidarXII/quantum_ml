@@ -65,8 +65,8 @@ We treat the three measurements ($P_X, P_Y, P_Z$) as a sequence of length 3.
 ### Step 3: Decoding
 * The sequence is flattened.
 * An MLP projects the features down to **4 real numbers**:
-    1.  $raw\_l_{00}$
-    2.  $raw\_l_{11}$
+    1.  $raw(\_l_{00})$
+    2.  $raw(\_l_{11})$
     3.  $real(l_{10})$
     4.  $imag(l_{10})$
 
