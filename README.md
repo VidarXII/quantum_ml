@@ -31,19 +31,19 @@ This guide details the steps to set up the environment, train the Neural Quantum
 Ensure your project is organized as follows:
 
 ```text
-quantum-tomography/
-├── src/
-│   ├── data/                  # Stores generated training datasets
-│   ├── data_gen.py            # Physics engine & data loader
-│   ├── model.py               # Transformer & Physics Head architecture
-│   ├── utils.py               # Fidelity & Trace Distance metrics
-│   └── train.py               # Main training & evaluation script
-├── outputs/
-│   └── best_model_opt.pt      # Saved model weights (generated after training)
+Open_Project_Winter_2025/
+│
+├── README.md               <-- (Master README with problem statement + Replication Guide merged in) [cite: 58, 67]
+├── AI_USAGE.md             <-- (Kept for transparency)
+│
 ├── docs/
-│   ├── model_working.md       # Architectural logic explanation
-│   └── REPLICATION.md         # This file
-└── requirements.txt 
+│   └── Final_Report.md     <-- (main document containing the Model Math, LaTeX equations, Assgn 3 Scaling Limits, and Future Work) [cite: 64, 72]
+│
+├── data/                   <-- (datasets) [cite: 53, 59]
+├── models/                 <-- (.pkl / .pt files) [cite: 54, 60]
+├── notebooks/              <-- (Cleaned Assgn 1, 2, 3 notebooks) [cite: 55, 61]
+├── results/                <-- (All PNG/PDF plots) [cite: 57, 63]
+└── src/                    <-- (Python scripts) [cite: 56, 62]
 ```
 
 ### 2. Environment Setup
