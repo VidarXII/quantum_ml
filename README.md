@@ -64,6 +64,7 @@ source venv/bin/activate
 #### Clone the repository:
    ```bash
    git clone https://github.com/VidarXII/quantum_ml
+   cd quantum_ml
 ```
 ## 3. Install dependencies
 ```
