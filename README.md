@@ -61,6 +61,11 @@ python3.11 -m venv venv
 ``` 
 source venv/bin/activate
 ```
+#### Clone the repository:
+   ```bash
+   git clone <your-repo-link>
+   cd Open_Project_Winter_2025
+```
 ## 3. Install dependencies
 ```
 pip install -r requirements.txt
