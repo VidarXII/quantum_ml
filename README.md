@@ -63,8 +63,7 @@ source venv/bin/activate
 ```
 #### Clone the repository:
    ```bash
-   git clone <your-repo-link>
-   cd Open_Project_Winter_2025
+   git clone https://github.com/VidarXII/quantum_ml
 ```
 ## 3. Install dependencies
 ```
